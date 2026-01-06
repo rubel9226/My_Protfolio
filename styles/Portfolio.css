@@ -30,6 +30,10 @@ body{
     color: white;
     cursor: pointer;
 }
+.btn:hover{
+    box-shadow: 0 6px 50px rgb(137, 42, 8);
+    border: 1px solid black;
+}
 .section-heading{
     max-width: 827px;
     text-align: center;
@@ -123,6 +127,12 @@ main #about .about-container{
     background-color: #fff8f3;
     padding: 131px 0px;
 }
+.about-container:hover{
+    box-shadow: 0 6px 50px rgb(144, 144, 154);
+}
+.hover:hover{
+    box-shadow: 0 6px 50px rgb(144, 144, 154);
+}
 main #about .about-container .about-info{
     width: 827px;
     margin: 0 auto;
@@ -163,7 +173,13 @@ main #about .about-container .about-info{
     padding: 30px;
     /* border: 1px solid red; */
     max-width: 267px;
-    box-shadow: 0 6px 50px #00000051;
+    box-shadow: 0 6px 50px #00000018;
+}
+
+.skill-card:hover{
+    background-color: rgb(243, 246, 246);
+    box-shadow: 0 6px 50px #0000004d;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .skill-card img{
